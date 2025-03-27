@@ -14,6 +14,14 @@ You can easily train and test SHC just by
 python run.py
 ```
 
+# Dataset
+We have utilized six datasets: CIFAR-100, Stanford Cars-A, Stanford Cars-B, NABirds-A, NABirds-B, and MSCOCO.
+You can choose the dataset you want to use by
+```
+python run.py --dataset xxx
+```
+You can download all the datasets [here](https://pan.baidu.com/s/1RqGcyCMyn8FVp13ZVkvQSQ?pwd=hruv). If you want to create a custom dataset, please follow the data formats of the Stanford Cars and NABirds datasets.
+
 # Code Introduction
 - `GenerateSimilarityMatrix.py` is stage1 in SHC, you can easily use it to generate SimilarityMatrix on your own dataset.
 - `GenerateSemanticHashCenters.py` is stage2 in SHC, you can generate SemanticHashCenters based on SimilarityMatrix.
