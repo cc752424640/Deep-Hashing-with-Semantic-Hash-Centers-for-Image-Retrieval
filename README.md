@@ -20,7 +20,7 @@ You can choose the dataset you want to use by
 ```
 python run.py --dataset xxx
 ```
-You can download all the datasets [here](https://pan.baidu.com/s/1RqGcyCMyn8FVp13ZVkvQSQ?pwd=hruv). If you want to create a custom dataset, please follow the data formats of the Stanford Cars and NABirds datasets.
+You can download all the datasets [here](https://pan.baidu.com/s/1a3ajwDyM65eLI9uE0KVCMw?pwd=8t5q). If you want to create a custom dataset, please follow the data formats of the Stanford Cars and NABirds datasets.
 
 # Code Introduction
 - `GenerateSimilarityMatrix.py` is stage1 in SHC, you can easily use it to generate SimilarityMatrix on your own dataset.
