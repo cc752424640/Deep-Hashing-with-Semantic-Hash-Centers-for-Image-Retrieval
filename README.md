@@ -1,6 +1,6 @@
 # Deep Hashing with Semantic Hash Centers for Image Retrieval
 
-## Introduction
+## Overview
 This repository is the PyTorch implementation of ACM MM 2024 (CCF A) paper: "SHC: Deep Hashing with Semantic Hash Centers for Image Retrieval".
 
 ![16 bits, CIFAR-100](./save_figures/structure.png)
