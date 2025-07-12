@@ -1,9 +1,9 @@
 # Deep Hashing with Semantic Hash Centers for Image Retrieval
 
 ## Overview
-This repository is the PyTorch implementation of ACM MM 2024 (CCF A) paper: "SHC: Deep Hashing with Semantic Hash Centers for Image Retrieval".
+This repository is the PyTorch implementation of ACM TOIS 2025 (CCF A) paper: "Deep Hashing with Semantic Hash Centers for Image Retrieval".
 
-![16 bits, CIFAR-100](./save_figures/structure.png)
+![structure](./save_figures/structure.png)
 
 **SHC** is a three-stage framework designed to generate hash codes that accurately preserve semantic information, significantly enhancing large-scale image retrieval performance.
 
@@ -49,12 +49,7 @@ pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.0 --index-url https
 - `network.py` contains all the networks used in SHC, including classification network and hash network. The default is ResNet34. If you need to modify the backbone, you can do so here.
 
 ## Dataset
-We have utilized six datasets: CIFAR-100, Stanford Cars-A, Stanford Cars-B, NABirds-A, NABirds-B, and MSCOCO.
-You can choose the dataset you want to use by
-```
-python run.py --dataset xxx
-```
-You can download all the datasets from the following links.
+We have utilized six datasets: CIFAR-100, Stanford Cars-A, Stanford Cars-B, NABirds-A, NABirds-B, and MSCOCO. You can download all the datasets from the following links.
 
   | *Dataset*        | *Link*                                                  |
   | ---------------- | ------------------------------------------------------- |
@@ -130,7 +125,7 @@ More experimental results can be found in our original paper.
 If you find this repository useful, please consider citing our work:
 
 ```
-Li Chen, Rui Liu, Yuxiang Zhou, Xudong Ma, Yong Chen (Corresponding), Dell Zhang (Corresponding). Deep Hashing with Semantic Hash Centers for Image Retrieval. ACM TRANSACTIONS ON INFORMATION SYSTEMS.
+Li Chen, Rui Liu, Yuxiang Zhou, Xudong Ma, Yong Chen (Corresponding), Dell Zhang (Corresponding). Deep Hashing with Semantic Hash Centers for Image Retrieval. ACM TRANSACTIONS ON INFORMATION SYSTEMS (2025).
 
 ```
 
@@ -141,6 +136,6 @@ For questions and further information about this research, please don't hesitate
 | Name | Email |
 |------|-------|
 | Li Chen | cc752424640@buaa.edu.cn |
-| Yong Chen | yong.chen@bupt.edu.cn |
+| Yong Chen | alphawolf.chen@gmail.com |
 
 We welcome collaboration opportunities and are happy to provide additional details about our work.
